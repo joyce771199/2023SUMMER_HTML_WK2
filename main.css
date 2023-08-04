@@ -1,0 +1,380 @@
+/* css reset */
+
+/* div計算上較簡潔 */
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+/* 將預設留白歸零 */
+body {
+    margin: 0px;
+}
+
+/* img 下方空白拿掉 */
+img {
+    vertical-align: middle;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Bruno Ace SC', serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 312px;
+    padding-right: 312px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: #d1d1d1;
+    width: 306px;
+    padding-top: 40px;
+
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: #d1d1d1;
+    width: 192px;
+    height: 48px;
+    display: flex;
+    justify-content: end;
+    padding-top: 40px;
+}
+
+.contact {
+    background-color: black;
+    display: flex;
+}
+
+.contact img {
+    width: 636px;
+    height: 848px;
+    margin-top: 72px;
+    margin-left: 312px;
+    margin-bottom: 72px;
+
+}
+
+.title {
+    width: 636px;
+    height: 528px;
+    margin-top: 232px;
+
+}
+
+h3 {
+
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 96px;
+
+
+}
+
+h2 {
+
+    color: #00FFA3;
+    font-size: 128px;
+    line-height: 192px;
+
+    display: flex;
+    justify-content: end;
+}
+
+.btmcontanct {
+    background-color: #FFFFFF;
+    height: 48px;
+    width: 185px;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 451px;
+
+}
+
+.btmcontanct p {
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+.btmcontanct img {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+}
+
+.introduction {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+    display: flex;
+
+}
+
+.sectionleft {
+    width: 526px;
+    margin-left: 312px;
+    margin-top: 160px;
+    margin-bottom: 318px;
+}
+
+.sectionleft p {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 36px;
+}
+
+.sparkle {
+    display: flex;
+    margin-top: 32px;
+}
+
+.sparkle img {
+    width: 32px;
+    height: 98px;
+
+}
+
+.sectionright {
+    width: 746px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.type1 {
+    width: 196px;
+    height: 600px;
+
+}
+
+.type2 {
+    width: 306px;
+    height: 600px;
+}
+
+.aboutme {
+    display: flex;
+}
+
+.card {
+    height: 328px;
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 312px;
+    margin-top: 206px;
+    margin-bottom: 206px;
+
+}
+
+.block {
+    width: 636px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.carditem {
+    border: 1px solid #e3e3e3;
+    width: 310px;
+    height: 156px;
+}
+
+.card h4 {
+
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.card p {
+
+    font-size: 16x;
+    line-height: 1.5rem;
+
+}
+
+.title2 {
+    width: 526px;
+    height: 420px;
+    margin-right: 312px;
+    margin-left: 110px;
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.title2 h3 {
+    color: black;
+}
+
+.title2 p {
+
+    color: black;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+
+.contact2 {
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    height: 354px;
+    display: flex;
+}
+
+.contact2item {
+    width: 657px;
+    height: 354px;
+    margin-left: 312px;
+    align-items: center;
+    display: flex;
+}
+
+.socialicon {
+    width: 526px;
+    height: 354px;
+    margin-right: 312px;
+    margin-left: 113px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.socialicon img {
+    width: 162px;
+    height: 162px;
+
+}
+
+.hover {
+    border-radius: 25%;
+    box-shadow: 0px 0px 16px 3px #9094FFE5, 0px 4px 4px 0px #00000040;
+}
+
+
+.project h3 {
+    color: black;
+    width: 746px;
+    margin-top: 160px;
+    margin-right: 312px;
+    margin-left: 862px;
+}
+
+
+
+.project p {
+
+    font-size: 16x;
+    line-height: 1.5rem;
+
+}
+
+.projectitem {
+    width: 1296px;
+    height: 530px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 312px;
+    margin-top: 16px;
+    margin-bottom: 160px;
+
+}
+
+.projectitem1 {
+    width: 416px;
+    height: 530px;
+}
+
+.projectitem2 {
+    width: 856px;
+    display: flex;
+    margin-bottom: 28px;
+    justify-content: space-between;
+
+}
+
+.projectitem2part {
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.projectitem2 img {
+    width: 196px;
+    height: 196px;
+}
+
+.btmseeme {
+    background-color: black;
+    color: #FFFFFF;
+    height: 48px;
+    width: 185px;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btmseeme img {
+    width: 13px;
+    height: 13px;
+}
+
+.projectitem3 {
+    width: 306px;
+    height: 306px;
+}
+
+.projectitem4 {
+    width: 526px;
+    height: 306px;
+}
+
+.partleft {
+    width: 856px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+
+    font-size: 16px;
+    line-height: 1.5rem;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+
+}
